@@ -7,6 +7,6 @@ class CategoryFilter(filters.FilterSet):
 
 class ProductFilter(filters.FilterSet):
     name = filters.CharFilter(lookup_expr="contains")
-    description = filters.NumberFilter(lookup_expr="contains")
+    description = filters.CharFilter(lookup_expr="contains")
     price = filters.NumberFilter(lookup_expr="exact")
     categories__name = filters.CharFilter(lookup_expr="contains")
