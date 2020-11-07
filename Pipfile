@@ -11,6 +11,10 @@ djangorestframework = "*"
 django-filter = "*"
 pytest = "*"
 pytest-django = "*"
+dj-database-url = "*"
+python-dotenv = "*"
+django-heroku = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.8"
