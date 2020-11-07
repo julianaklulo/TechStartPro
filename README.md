@@ -102,7 +102,7 @@ Payload for POST:
 
 **Python version:** 3.8.6
 
-**Virtual environmnet:** pipenv
+**Virtual environment:** pipenv
 
 **Libraries:**
 * Django
